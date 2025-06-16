@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#inputMovie {
+  width: 220px;
+}
+
+#inputMovie:focus {
+  outline: none;
+}
+
+#errMsg {
+  color: red;
+  font-size: 15px;
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Title of the First Article",   
+    "body": "This is the body of the first article.",
+    "category": "HTML",
+    "author": "Author One"
+  },
+    {
+        "id": 2,
+        "title": "Title of the Second Article",
+        "body": "This is the body of the second article.",
+        "category": "CSS",
+        "author": "Author Two"
+    },
+    {
+        "id": 3,
+        "title": "Title of the Third Article",
+        "body": "This is the body of the third article.",
+        "category": "JavaScript",
+        "author": "Author Three"
+    },
+    {
+        "id": 4,
+        "title": "Title of the Fourth Article",
+        "body": "This is the body of the fourth article.",
+        "category": "Python",
+        "author": "Author Four"
+    },
+  {
+    "id": 5,
+    "title": "Title of the Fifth Article",
+    "body": "This is the body of the fifth article.",
+    "category": "PHP",
+    "author": "Author Five"
+  }
+]

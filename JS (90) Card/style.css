@@ -1,0 +1,50 @@
+
+/* Add Grid layout styling */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+
+/* Grid container */
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Flexible columns */
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px; /* Optional: limits the max width of the grid */
+}
+
+.product {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    max-width: 340px;
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.product h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #487aac;
+}
+
+.product p {
+    color: #585353;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
